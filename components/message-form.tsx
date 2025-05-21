@@ -71,7 +71,7 @@ export function MessageForm() {
       <Card className="p-8 text-center bg-white shadow-md">
         <div className="text-green-500 text-5xl mb-4">🎉</div>
         <h3 className="text-2xl font-bold text-green-700 mb-2">Thank You!</h3>
-        <p className="text-gray-600 mb-4">Your message has been saved for Nilanth to read when he turns 18.</p>
+        <p className="text-gray-600 mb-4">Your message has been saved for Nilan to read when he turns 18.</p>
         <Button onClick={() => router.push("/")} className="mt-4">
           Return to Home
         </Button>
@@ -94,7 +94,7 @@ export function MessageForm() {
         </div>
 
         <div className="space-y-2">
-          <Label htmlFor="message">Your Message to 18-Year-Old Nilanth</Label>
+          <Label htmlFor="message">Your Message to 18-Year-Old Nilan</Label>
           <Textarea
             id="message"
             value={message}

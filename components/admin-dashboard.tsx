@@ -39,18 +39,18 @@ const sampleTasks = {
     "Make a funny face and hold it for 10 seconds",
   ],
   emotional: [
-    "Share a memory with Nilanth",
-    "Tell us what you admire about Nilanth",
-    "Share a wish for Nilanth's future",
-    "Give Nilanth a piece of advice",
-    "Tell us how you met Nilanth",
+    "Share a memory with Nilan",
+    "Tell us what you admire about Nilan",
+    "Share a wish for Nilan's future",
+    "Give Nilan a piece of advice",
+    "Tell us how you met Nilan",
   ],
   silly: [
     "Speak in an accent for the next 2 minutes",
     "Pretend to be an animal of your choice",
     "Try to touch your nose with your tongue",
     "Do your best impression of a celebrity",
-    "Make up a short rap about Nilanth",
+    "Make up a short rap about Nilan",
   ],
 }
 
@@ -73,7 +73,7 @@ export function AdminDashboard() {
     const url = URL.createObjectURL(blob)
     const a = document.createElement("a")
     a.href = url
-    a.download = "nilanth-birthday-messages.txt"
+    a.download = "Nilan-birthday-messages.txt"
     document.body.appendChild(a)
     a.click()
     document.body.removeChild(a)
@@ -134,7 +134,7 @@ export function AdminDashboard() {
         <Card>
           <CardHeader>
             <CardTitle>Guest Messages</CardTitle>
-            <CardDescription>Messages that guests have written for 18-year-old Nilanth</CardDescription>
+            <CardDescription>Messages that guests have written for 18-year-old Nilan</CardDescription>
             <Button variant="outline" size="sm" className="absolute top-4 right-4" onClick={exportMessages}>
               <Download className="h-4 w-4 mr-2" />
               Export All

@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
   title: "Nilan's Birthday Celebration",
-  description: "Interactive guest book and activities for Nilanth's birthday party",
+  description: "Interactive guest book and activities for Nilan's birthday party",
     generator: 'v0.dev'
 }
 

@@ -13,9 +13,9 @@ export default function MessagePage() {
 
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-8">
-            <h1 className="text-3xl font-bold text-blue-800 mb-2">Dear 18-Year-Old Nilanth</h1>
+            <h1 className="text-3xl font-bold text-blue-800 mb-2">Dear 18-Year-Old Nilan</h1>
             <p className="text-gray-600">
-              Write a message that Nilanth will read when he turns 18. Share your wishes, advice, or a funny memory!
+              Write a message that Nilan will read when he turns 18. Share your wishes, advice, or a funny memory!
             </p>
           </div>
 

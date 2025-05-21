@@ -15,7 +15,7 @@ export default function GalleryPage() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-8">
             <h1 className="text-3xl font-bold text-pink-800 mb-2">Photo Gallery</h1>
-            <p className="text-gray-600">Share your favorite moments from Nilanth's birthday celebration!</p>
+            <p className="text-gray-600">Share your favorite moments from Nilan's birthday celebration!</p>
           </div>
 
           <PhotoUpload />

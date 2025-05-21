@@ -8,7 +8,7 @@ export default function HomePage() {
     <div className="min-h-screen bg-gradient-to-b from-purple-50 to-pink-50">
       <div className="container mx-auto px-4 py-8">
         <header className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-purple-800 mb-2">Nilanth's Birthday Celebration</h1>
+          <h1 className="text-4xl font-bold text-purple-800 mb-2">Nilan's Birthday Celebration</h1>
           <p className="text-xl text-gray-600">Join the fun and leave your mark!</p>
         </header>
 
@@ -37,12 +37,12 @@ export default function HomePage() {
             <CardHeader className="bg-gradient-to-r from-blue-500 to-purple-500 text-white">
               <CardTitle className="flex items-center gap-2">
                 <MessageSquare className="h-6 w-6" />
-                <span>Message for Nilanth</span>
+                <span>Message for Nilan</span>
               </CardTitle>
-              <CardDescription className="text-blue-100">Write a message for 18-year-old Nilanth</CardDescription>
+              <CardDescription className="text-blue-100">Write a message for 18-year-old Nilan</CardDescription>
             </CardHeader>
             <CardContent className="pt-6">
-              <p>Leave a heartfelt or funny message that Nilanth will read when he turns 18.</p>
+              <p>Leave a heartfelt or funny message that Nilan will read when he turns 18.</p>
             </CardContent>
             <CardFooter>
               <Link href="/message" className="w-full">
