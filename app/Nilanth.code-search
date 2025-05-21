@@ -1,0 +1,78 @@
+# Query: Nilanth
+# ContextLines: 1
+
+24 results - 7 files
+
+app/layout.tsx:
+   9    title: "Nilan's Birthday Celebration",
+  10:   description: "Interactive guest book and activities for Nilan's birthday party",
+  11      generator: 'v0.dev'
+
+app/page.tsx:
+  10          <header className="text-center mb-12">
+  11:           <h1 className="text-4xl font-bold text-purple-800 mb-2">Nilan's Birthday Celebration</h1>
+  12            <p className="text-xl text-gray-600">Join the fun and leave your mark!</p>
+
+  39                  <MessageSquare className="h-6 w-6" />
+  40:                 <span>Message for Nilan</span>
+  41                </CardTitle>
+  42:               <CardDescription className="text-blue-100">Write a message for 18-year-old Nilanth</CardDescription>
+  43              </CardHeader>
+  44              <CardContent className="pt-6">
+  45:               <p>Leave a heartfelt or funny message that Nilanth will read when he turns 18.</p>
+  46              </CardContent>
+
+app/gallery/page.tsx:
+  17              <h1 className="text-3xl font-bold text-pink-800 mb-2">Photo Gallery</h1>
+  18:             <p className="text-gray-600">Share your favorite moments from Nilanth's birthday celebration!</p>
+  19            </div>
+
+app/message/page.tsx:
+  15            <div className="text-center mb-8">
+  16:             <h1 className="text-3xl font-bold text-blue-800 mb-2">Dear 18-Year-Old Nilanth</h1>
+  17              <p className="text-gray-600">
+  18:               Write a message that Nilanth will read when he turns 18. Share your wishes, advice, or a funny memory!
+  19              </p>
+
+components/admin-dashboard.tsx:
+   41    emotional: [
+   42:     "Share a memory with Nilanth",
+   43:     "Tell us what you admire about Nilanth",
+   44:     "Share a wish for Nilanth's future",
+   45:     "Give Nilanth a piece of advice",
+   46:     "Tell us how you met Nilanth",
+   47    ],
+
+   52      "Do your best impression of a celebrity",
+   53:     "Make up a short rap about Nilanth",
+   54    ],
+
+   75      a.href = url
+   76:     a.download = "nilanth-birthday-messages.txt"
+   77      document.body.appendChild(a)
+
+  136              <CardTitle>Guest Messages</CardTitle>
+  137:             <CardDescription>Messages that guests have written for 18-year-old Nilanth</CardDescription>
+  138              <Button variant="outline" size="sm" className="absolute top-4 right-4" onClick={exportMessages}>
+
+components/message-form.tsx:
+  73          <h3 className="text-2xl font-bold text-green-700 mb-2">Thank You!</h3>
+  74:         <p className="text-gray-600 mb-4">Your message has been saved for Nilanth to read when he turns 18.</p>
+  75          <Button onClick={() => router.push("/")} className="mt-4">
+
+  96          <div className="space-y-2">
+  97:           <Label htmlFor="message">Your Message to 18-Year-Old Nilanth</Label>
+  98            <Textarea
+
+components/spin-wheel.tsx:
+  30    emotional: [
+  31:     "Share a memory with Nilanth",
+  32:     "Tell us what you admire about Nilanth",
+  33:     "Share a wish for Nilanth's future",
+  34:     "Give Nilanth a piece of advice",
+  35:     "Tell us how you met Nilanth",
+  36    ],
+
+  41      "Do your best impression of a celebrity",
+  42:     "Make up a short rap about Nilanth",
+  43    ],
